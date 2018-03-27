@@ -1,0 +1,140 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+ margin: 0;
+ padding: 0;
+ border: 0;
+}
+
+html,body{
+	background: #FFFFFF;
+	max-width: 100%;
+	
+	background-size: cover;
+}
+html{
+	overflow: auto;
+}
+
+#main_container{
+	height: 64px;
+}
+
+
+.navigation-bar {
+    width: 100%;  /* i'm assuming full width */
+    height: 80px; /* change it to desired width */
+    background-color: white; /* change to desired color */
+}
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    height: 100px;
+    margin-right: 20px;
+    margin-top: 15px;    /* if you want it vertically middle of the navbar. */
+}
+.navigation-bar > a {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    height: 80px;        /* if you want it to take the full height of the bar */
+    line-height: 80px;    /* if you want it vertically middle of the navbar */
+}
+
+
+#logo{
+	float: left;
+}
+#img{
+	margin: 0;
+ 	padding: 0;
+ 	overflow: hidden;
+ 	float: left;
+}
+
+#body_section{
+	margin-top: 100px;
+}
+
+.main_img{
+    display: block;
+    margin: 0 auto;
+}
+
+.navigation-bar ul{
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ background-color: grey;
+}
+.navigation-bar li {
+    float: right;
+}
+
+.navigation-bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.navigation-bar li a:hover {
+    background-color: #111111;
+}
+
+#insta{
+	text-align: center;
+	padding-top: 5px;
+	margin-top: 10px;
+
+}
+#insta > a{
+	
+	text-decoration: none;
+}
+
+ #flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+.flex-item {
+    width: 100px;
+    height: 200px;
+}
+
+#peopleSay{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#footer{
+	 position: fixed;
+  **height:10%;**
+  width:100%;
+  padding-top: 2px;
+  bottom: 0;
+  clear: both;
+  background-color: black;
+  color: white;
+  float: left;
+  overflow: auto;
+}
+
+
